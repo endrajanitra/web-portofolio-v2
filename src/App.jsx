@@ -16,7 +16,7 @@ function App() {
         terutama pada pembuatan Website dan Desain seperti Poster, Pamflet serta Banner, ketertarikan pada bidang ini sudah berlangsung lebih dari 4 Tahun untuk semua Bidang.
           </p>
         <div className="flex items-center sm:gap-4 gap-2">
-          <a href="#" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">Download CV <i className="ri-download-line ri-lg"></i></a>
+          <a href="#" className="bg-sky-600 p-4 rounded-2xl hover:bg-sky-500">Download CV <i className="ri-download-line ri-lg"></i></a>
           <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i></a>
         </div>
       </div>
@@ -33,11 +33,11 @@ function App() {
             <img src={DataImage.HeroImage} alt="image" className="w-12 rounded-md sm:block hidden" loading="lazy"/>
             <div className="flex items-center gap-6">
               <div>
-                <h1 className="text-4xl mb-1">45<span className="text-violet-500">+</span></h1>
+                <h1 className="text-4xl mb-1">45<span className="text-sky-600">+</span></h1>
                 <p>Proyek Selesai</p>
               </div>
               <div>
-                <h1 className="text-4xl mb-1">4<span className="text-violet-500">+</span></h1>
+                <h1 className="text-4xl mb-1">4<span className="text-sky-600">+</span></h1>
                 <p>Tahun Pengalaman</p>
               </div>
             </div>
@@ -80,7 +80,7 @@ function App() {
                   ))}
                 </div>
                 <div className="mt-8 text-center">
-                  <a className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600" href="#">Lihat Proyek</a>
+                  <a className="bg-sky-600 p-3 rounded-lg block border border-zinc-600 hover:bg-sky-500" href="#">Lihat Proyek</a>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ function App() {
             <textarea name="pesan" id="pesan" cols="45" rows="7" placeholder="Pesan" className="border border-zinc-500 p-2 rounded-md" required ></textarea>
           </div>
           <div className="text-center">
-            <button type="submit" className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-violet-600" >Kirim Pesan</button>
+            <button type="submit" className="bg-sky-600 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-sky-500" >Kirim Pesan</button>
           </div>
         </div>
       </form>
