@@ -9,8 +9,9 @@ function App() {
       <div className="animate__animated animate__fadeInUp animate__delay-2s">
         
         <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Endra janitra</h1>
-        <p className="text-base/loose mb-6 opacity-50">Saya mempunyai ketertarikan dalam bidang Programming dan Designer, 
-        terutama pada pembuatan Website dan Desain seperti Poster, Pamflet serta Banner, ketertarikan pada bidang ini sudah berlangsung lebih dari 4 Tahun untuk semua Bidang.
+        <p className="text-base/loose mb-6 opacity-50"> Saya merupakan lulusan SMK Rekayasa Perangkat Lunak (RPL) yang fokus pada pengembangan website. Selama masa pendidikan, 
+        saya aktif mengembangkan berbagai proyek web dan memperdalam kemampuan pemrograman. Dengan dasar yang kuat dan semangat belajar yang tinggi, 
+        saya siap berkontribusi dalam pengembangan produk digital yang berkualitas.
           </p>
         <div className="flex items-center sm:gap-4 gap-2">
           <a href="#" className="bg-sky-600 p-4 rounded-2xl hover:bg-sky-500">Download CV <i className="ri-download-line ri-lg"></i></a>
